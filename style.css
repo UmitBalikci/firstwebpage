@@ -1,0 +1,146 @@
+/* CSS Dosyası*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    background-image: url(resimler/pexels-3.jpg);
+    background-size:cover;
+    min-height: 1100px;
+    
+}
+#sayfa{
+    border-style: solid;
+    border-width: 1px;
+    border-color:blue;
+    width: 1900px;
+    min-height: 1100px;
+    margin: auto;
+    overflow: auto;
+}
+#baslik{
+    border-style: solid;
+    border-width: 1px;
+    border-color:blue;
+    width: 1886px;
+    height: 100px;
+    margin: auto;
+}
+#logo{
+    border-width: 1px;
+    width: 100px;
+    height: 80px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+#socialmedia{
+    border-width: 1px;
+    width: 400px;
+    height: 60px;
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+#ikon{
+    margin-left: 10px;
+}
+#anamenu{
+    border-style: solid;
+    border-width: 1px;
+    border-color:blue;
+    width: 1886px;
+    height: 60px;
+    margin: auto;
+}
+#anamenu ul{
+    list-style-type: none;
+}
+#anamenu ul li{
+    border-style: solid;
+    width: 110px;
+    float: left;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+}
+#anamenu ul a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+/*İçerik*/
+#icerik{
+    border-style: solid;
+    border-width: 1px;
+    border-color:blue;
+    width: 1330px;
+    min-height: 700px;
+    float: left;
+    margin-left: 6px;
+    
+}
+/*yan menü*/
+#yanmenu{
+    border-style: solid;
+    border-width: 1px;
+    border-color:blue;
+    width: 550px;
+    min-height: 700px;
+    float:right;
+    margin-right: 6px;
+}
+.resim{
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color:crimson;
+    font-size: 20px;
+
+}
+.baslik{
+    font-size: 30px;
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+#altmenu{
+    border-style: solid;
+    border-width: 1px;
+    border-color:blue;
+    width: 1886px;
+    height: 100px;
+    float:left;
+    margin-left:6px;    
+}
+#tablo{
+    margin:auto;
+    font-size: 50px;
+    
+}
+.satir{
+    text-align: right;
+}
+.giris{
+    font-size: 50px;
+    border-radius: 25px;
+}
+#kaydettusu{
+    background-color: green;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow:10px 5px black;
+}
+#yorum{
+    border-radius: 25px;
+}
